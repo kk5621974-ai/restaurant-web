@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spicy Bites Restaurant</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav>
+  <h2 class="logo">Spicy Bites </h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#booking">Booking</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home" class="hero">
+  <h1>Delicious Food, Happy Mood</h1>
+  <p>Authentic South Indian Restaurant</p>
+</section>
+
+<section id="menu" class="content section">
+  <h1>Our Menu</h1>
+
+  <div class="menu-grid">
+    <div class="card">
+      <img src="./CB img.png">
+      <h3>Chicken Biryani</h3>
+      <p>₹180</p>
+    </div>
+
+    <div class="card">
+      <img src="./Masala Dosa img.jpg">
+      <h3>Masala Dosa</h3>
+      <p>₹70</p>
+    </div> 
+
+    <div class="card">
+      <img src="./veg fried rice.webp">
+      <h3>Veg Fried Rice</h3>
+      <p>₹120</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="content section">
+  <h1>About Us</h1>
+  <p>
+    Serving tasty, hygienic food since 2010 
+  </p>
+</section>
+
+<section id="booking" class="content section">
+  <h1>Book a Table</h1>
+
+  <form onsubmit="return bookTable()">
+    <input type="text" placeholder="Your Name" required>
+    <input type="date" required>
+    <input type="time" required>
+    <input type="number" placeholder="No of People" required>
+    <button type="submit">Confirm Booking</button>
+  </form>
+</section>
+
+<section id="contact" class="content section">
+  <h1>Contact Us</h1>
+  <p>📍 Chennai</p>
+  <p>📞 98765 43210</p>
+  <p>⌛ 10 AM – 10 PM</p>
+</section>
+
+
+
+<script src="./main.js"></script>
+</body>
+</html>
